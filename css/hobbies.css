@@ -1,0 +1,38 @@
+.hobby {
+    padding: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobby:hover {
+    transform: scale(1.1);
+}
+
+.drawing {
+    background-color: rgb(255, 208, 0);
+}
+
+.outdoor {
+    background-color: rgb(255, 80, 80);
+}
+
+.hobby img {
+    min-width: 12remp;
+    max-width: 20rem;
+    flex: 1;
+}
+
+.hobbies-text {
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.hobbies-text p {
+    text-align: justify;
+}
